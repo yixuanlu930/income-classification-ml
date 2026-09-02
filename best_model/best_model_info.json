@@ -1,0 +1,15 @@
+{
+  "model": "random_forest_unscaled",
+  "best_params": {
+    "clf__class_weight": "{0: 1.25, 1: 1.0}",
+    "clf__max_depth": "16",
+    "clf__min_samples_leaf": "5",
+    "clf__n_estimators": "100",
+    "smote": "SMOTE(k_neighbors=3, random_state=42)"
+  },
+  "valid_f1": 0.6988688474472639,
+  "valid_accuracy": 0.8241071428571428,
+  "cv_f1": 0.6807499945507169,
+  "cv_accuracy": 0.8144478598539215,
+  "feature_set": "rfecv_lr"
+}
